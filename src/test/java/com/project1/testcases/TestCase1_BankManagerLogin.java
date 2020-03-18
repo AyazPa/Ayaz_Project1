@@ -20,6 +20,7 @@ public class TestCase1_BankManagerLogin extends TestBase
 		try{
 			Assert.assertEquals(Actual_title, OR.getProperty("Expected_title"));
 			log.debug("login succesfull");
+			System.out.println("login Succesfull");
 		}
 		catch(Exception e)
 		{
