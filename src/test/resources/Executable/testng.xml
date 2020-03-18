@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <test thread-count="5" name="TestCase1_BankManagerLogin">
+    <classes>
+      <class name="com.project1.testcases.TestCase1_BankManagerLogin"/>
+    </classes>
+  </test> <!-- TestCase1_BankManagerLogin -->
+</suite> <!-- RegressionSuite -->
